@@ -1,18 +1,3 @@
-
-"""
-here when an invalid input is entered 
-the function calls itself but does not return any value!! 
-This causes the invalid input handling to result in no return value
-
-this method called Recursion / read about it 
-"""
-# I fixed the recursion by making it a while loop. Calling onto functions inside of that function is a habit i need to unlearn haha
-
-"""
-Use descriptive function names and ensure input is returned correctly 
-consider more descriptive names like is_basecamp_complete() or is_thesis_complete())
-"""
-# oke!
 def check_if_finished(question):
     while True:
         user_input = input(f"{question} (Yes or No): ").strip().lower()
